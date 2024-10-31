@@ -1,0 +1,53 @@
+// $bordercolor:rgba(255,25,0,0.322);
+// $bgcolor:rgba(192 29 29 /15%);
+// $errorcolor:#ef8d8dfa;
+.alert-warper{
+    border: 3px dotted rgba(255,25,0,0.322);
+    width: 650px;
+    margin:40px auto;
+    padding:10px 20px;
+    border-radius: 10px;
+    background-color: rgba(192 29 29 /15%);
+    font-family: sans-serif;
+    color: #ef8d8dfa;
+}
+.alert-warper .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 18px 0;
+}
+.alert-warper .header span svg{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.alert-warper .header h2{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.alert-warper p{
+    font-size: 17px;
+    line-height: 1.7;
+    margin-bottom: 18px;
+}
+.alert-danger{
+    border: 3px dotted purple;
+    background-color: rgba(128, 0, 128, 0.303);
+    color: plum;
+}
+.alert-success{
+    border: 3px dotted rgb(183, 26, 26);
+    background-color: rgba(154, 104, 54, 0.303);
+    color: rgb(241, 198, 149);
+}
+.alert-primary{
+    border: 3px dotted rgb(128, 235, 22);
+    background-color: rgba(64, 169, 43, 0.303);
+    color: rgb(81, 255, 0);
+}
+.alert-secondary{
+    border: 3px dotted rgb(19, 237, 197);
+    background-color: rgba(18, 232, 182, 0.303);
+    color: rgb(0, 255, 255);
+}
